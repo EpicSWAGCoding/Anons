@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experiments: {
-      topLevelAwait: true,
+    future: {
+      webpack5: true,
     },
   };
   
